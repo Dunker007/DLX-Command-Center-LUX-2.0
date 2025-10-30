@@ -25,7 +25,7 @@ interface SidebarProps {
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeLink, setActiveLink }) => {
-    const links = ['Dashboard', 'AI Management', 'Task Management', 'Reports', 'Settings'];
+    const links = ['Dashboard', 'AI Management', 'Task Management', 'Idea Lab', 'Crypto Lab', 'Knowledge Base', 'Reports', 'Settings'];
 
     return (
         <aside className="fixed top-0 left-0 h-full w-60 bg-black/60 backdrop-blur-md pt-20 z-40 border-r border-cyan-500/30">
